@@ -1,0 +1,27 @@
+/* Structural Pseudo-classes------------------ */
+
+/* add colors to first li element */
+li:first-child {
+    background: #53bab3;
+    color: white;
+}
+
+/* remove border from last li element */
+li:last-child {
+    border: none;
+}
+
+/* targets elements that have only one child, if we add another element to
+   beyond the <ul> tag, li will have a sibling and will not be targeted */
+:only-child {
+    color: #52bab3;
+    font-size: 1.5em;
+}
+
+/* targets only li elements that are empty, no content
+   without the li, targets all empty elements,
+   can be used to review html code (no empty, unnecessary tags)
+   or if a result is empty it can color the tag  */
+li:empty {
+    background: tomato;
+}
