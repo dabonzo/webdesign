@@ -1,6 +1,8 @@
 /* :nth-child Pseudo-classes------------------ */
 
+/* changes background of every 3rd element starting with the 1st element */
+
 li:nth-child(-n+4) {
-  background: #52bab3;
-  color: white;
+    background: #52bab3;
+    color: white;
 }
